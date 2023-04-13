@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    background-color: aliceblue;
+}
+
+header{
+    height: 100vh;
+    
+}
+
+.header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.header h1{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gamearea{
+    overflow: hidden;
+}
+
+
+.gameareawidth{
+    width: 400vw;
+    display: flex;
+    transition: all 0.5s;
+}
+
+.game{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+.animalimg img{
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.containerbox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    border-style:dashed;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.finaly{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin:20px
+}
+
+
+.finalyImg img{
+    width: 200px;
+    height: 200px;
+    margin: 20p;
+    
+}
+
+.congratulations{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.congratulations span{
+    margin:20px
+}
+
+.congratulations button{
+    color: white;
+    background-color: rgb(0, 127, 247);
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px  #003;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor:grab;
+}
+
+.congratulations button:hover{
+    opacity: 0.5
+}
+
+.assinatura{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.assinatura a{
+    text-decoration: none;
+    color:rgb(0, 127, 247)
+}
+
+.dragging{
+    border: 4px solid black;
+}
+
+.hover{
+    opacity: 0.8;
+    width: 100px;
+    height: 100px;
+}
